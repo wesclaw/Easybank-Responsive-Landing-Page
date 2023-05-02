@@ -1,0 +1,166 @@
+
+
+/* ///for tablet ipad */
+
+@media(max-width: 1400px){
+
+
+  body{
+    background-image: url('bg-intro-mobile.svg');
+    background-position: top;
+    background-size: 100% 60%;
+    background-color: var(--Dark-Blue);
+    color: ghostwhite;
+
+  }
+
+  h1{
+    font-size: 3.5rem;
+    max-width: 500px;
+  }
+
+  .main-row{
+    display: flex;
+    align-items: center;
+  }
+
+  .mockup-img{
+    position: unset;
+    max-height: 500px;
+    }
+
+    /* ///why choose us */
+
+    .why-us p{
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    
+    .choose-us{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .why-us{
+      text-align: center;
+    }
+
+    .choose-us h4{
+      margin-top: 20px;
+    }
+
+    .choose-us p{
+      max-width: 600px;
+      margin: 0 auto;
+      margin-bottom: 40px;
+    }
+
+    .why-choose-us{
+      margin-top: 50px;
+    }
+
+    .latest-articles{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      row-gap: 50px;
+    }
+  
+    .arty img{
+      height: 70%;
+      width: 100%;
+      min-width: 100px;
+      object-fit: cover;
+    }
+
+    .invite button{
+      font-size: .9rem;
+    }
+
+}
+
+
+/* ///for mobile */
+
+@media (max-width: 770px) {
+  
+  .main-row{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  body{
+    background-color: ghostwhite;
+    color: black;
+  }
+
+  h1{
+    font-size: 2.5rem;
+  }
+
+  .choose-us{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+
+  .why-choose-us{
+    margin-top: 250px;
+  }
+
+  .latest-articles{
+    display: flex;
+    flex-direction: column ;
+  }
+
+  .footer img{
+    margin-right: 0px;
+  }
+  
+  .footer a{
+    color: ghostwhite;
+    
+  }
+  
+  li{
+    margin-bottom: 0px;
+    
+  }
+  
+  .footer p{
+    font-size: 1rem;
+    color: rgb(194, 191, 191);
+    margin-top: 0px;
+  }
+
+  .footer{
+    height: 500px;   
+    position: relative;
+  }
+
+  .foot-wrap{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .list-item{
+    margin-top: 10px;
+   position: relative;
+   left: -15px;
+  }
+ 
+  .socials{
+    margin-bottom: 20px;
+  }
+
+  .invite button{
+    margin-bottom: 20px;
+  }
+
+}
+
