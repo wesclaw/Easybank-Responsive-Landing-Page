@@ -1,0 +1,168 @@
+:root{
+  --Dark-Blue: hsl(233, 26%, 24%);
+  --Lime-Green: hsl(136, 65%, 51%);
+  --Bright-Cyan: hsl(192, 70%, 51%);
+}
+
+body{
+  background-image: url('bg-intro-desktop.svg');
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+.main{
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+h1{
+  font-size: 5rem;
+  font-weight: 200;
+  max-width: 700px;
+}
+
+/* //main phone image */
+
+.mockup-img{
+  position: absolute;
+  top: -50px;
+  z-index: -1;
+  right: 10px;
+}
+
+.left-box h1{
+ margin-bottom: 30px;
+}
+
+.left-box p{
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+.main-row{
+  margin-top: 100px;
+}
+
+#nav-btn{
+  background-image: linear-gradient(90deg, var(--Lime-Green), var(--Bright-Cyan));
+  padding: 9px 30px;
+  border: none;
+  color: ghostwhite;
+  font-weight: 400;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+
+
+/* /////i had to make the ul mive down because the ul went up randomly for no reason at all.  */
+.navbar{
+  position: relative;
+}
+
+.navbar ul{
+  position: relative;
+  top: 5px;
+}
+
+#nav-btn:hover{
+  opacity: 70%;
+}
+
+
+/* //why us */
+
+.why-us{
+  margin-bottom: 50px;
+}
+
+
+.why-choose-us{
+  margin-top: 200px;
+}
+
+h2{
+  font-weight: 200;
+}
+
+h4{
+  font-weight: 200;
+}
+
+/* ////articles */
+
+.articles{
+  margin-top: 100px;
+}
+
+.arty{
+  cursor: pointer;
+}
+
+.arty:hover{
+  opacity: 60%;
+}
+
+.arty img{
+  min-height: 230px;
+  min-width: 100px;
+  object-fit: cover;
+}
+
+h5{
+  font-size: .8rem;
+  margin-top: 10px;
+}
+
+/* 
+////footer */
+
+.footer{
+  background-color: var(--Dark-Blue);
+  min-height: 300px;
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.footer .foot-logo{
+  filter: sepia(1) invert(1) grayscale(1) brightness(100);
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.footer img{
+  margin-right: 5px;
+}
+
+.footer a{
+  color: ghostwhite;
+  
+}
+
+li{
+  margin-bottom: 10px;
+}
+
+.footer p{
+  font-size: 1rem;
+  color: rgb(194, 191, 191);
+  margin-top: 30px;
+}
+
+
